@@ -100,7 +100,7 @@ public class Hooks {
         System.out.println("Continuous Integration Found");
         driver.findElement(By.className("fusion-logo-link")).click();
 
-        //
+        //News Section of HomePage.  Still in the works.
 		driver.findElements(By.cssSelector("#recent-posts-2")).get(0).click();
         WebElement news = driver.findElement(By.className("fusion-footer-widget-column widget widget_recent_entries"));
         System.out.println("News Found");
@@ -109,27 +109,27 @@ public class Hooks {
 
         //Footer Navigation on Homepage.
 
-		//Navigate to Facebook from Footer. Need a way back onto TapQA homepage
+		//Navigate to Facebook from Footer.
 		driver.findElement(By.className("fusion-icon-facebook")).click();
 		System.out.println("Facebook Found");
 		driver.navigate().back();
 
-		//Navigate to Twitter from Footer.  Need a way back onto TapQA homepage
+		//Navigate to Twitter from Footer.
 		driver.findElement(By.className("fusion-icon-twitter")).click();
 		System.out.println("Twitter Found");
 		driver.navigate().back();
 
-		//Navigate to Youtube from Footer.  Need a way back onto TapQA homepage
+		//Navigate to Youtube from Footer.
 		driver.findElement(By.className("fusion-icon-youtube")).click();
 		System.out.println("Youtube Found");
 		driver.navigate().back();
 
-		//Navigate to Instagram from Footer.  Need a way back onto TapQA homepage
+		//Navigate to Instagram from Footer.
 		driver.findElement(By.className("fusion-icon-instagram")).click();
 		System.out.println("Instagram Found");
 		driver.navigate().back();
 
-		//Navigate to Linkedin from Footer.  Need a way back onto TapQA homepage
+		//Navigate to Linkedin from Footer.
 		driver.findElement(By.className("fusion-icon-linkedin")).click();
 		System.out.println("Linkedin Found");
 		driver.navigate().back();

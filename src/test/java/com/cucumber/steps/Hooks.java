@@ -34,12 +34,7 @@ public class Hooks {
 		/// ^ don't touch! Deals with Window Sizes to find specific Links + Wait Timer
 
 
-
-
-
-
-
-
+        
 
 		//	Navigate to Site
 		driver.navigate().to("http://tapqa.com");

@@ -48,7 +48,7 @@ public class Hooks {
 
 		//We Test Software navigation.  Asserts are still being worked on.
 
-	/*	// Looking for Strategy for Scaling Development & Quality Link on Homepage. Navigating to, finding Header of Site and Going back to Homepage
+		// Looking for Strategy for Scaling Development & Quality Link on Homepage. Navigating to, finding Header of Site and Going back to Homepage
 		driver.findElements(By.cssSelector(".checkboxes i")).get(0).click();
 		WebElement strategy = driver.findElement(By.className("fusion-page-title-wrapper"));
 		System.out.println("Passed:tap|Strategy");
@@ -104,14 +104,14 @@ public class Hooks {
         WebElement integration = driver.findElement(By.className("fusion-page-title-wrapper"));
         System.out.println("Continuous Integration Found");
         driver.findElement(By.className("fusion-logo-link")).click();
-*/
+
         //
-	/*	driver.findElements(By.cssSelector("#recent-posts-2")).get(0).click();
+		driver.findElements(By.cssSelector("#recent-posts-2")).get(0).click();
         WebElement news = driver.findElement(By.className("fusion-footer-widget-column widget widget_recent_entries"));
         System.out.println("News Found");
         driver.findElement(By.className("fusion-logo-link")).click();
 
-**/
+
         //Footer Navigation on Homepage.
 
 		//Navigate to Facebook from Footer. Need a way back onto TapQA homepage

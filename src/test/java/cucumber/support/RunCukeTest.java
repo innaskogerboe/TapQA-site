@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 		plugin={"pretty"},
 		glue = {"cucumber.steps",
                 "cucumber.support"},
-		tags = {})
+		tags = {"@smoke-test"})
 public class RunCukeTest {
 
 

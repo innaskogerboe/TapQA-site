@@ -8,55 +8,58 @@ Scenario: Homepage displays header "We test software"
 	    We test software
 	    """
 
+@C002 @smoke-test
 Scenario: tap STRATEGY Page
 	Given I am on "http://tapqa.com"
-    And I click on the Strategy for Scaling Development & Quality Link
-	Then I navigated to tap STRATEGY Page
-    And I search for the Header tap STATEGY
-    Then I click the Tap Logo to navigate back to the homepage
+    And I click on the "Strategy for Scaling Development & Quality"
+#	Then I navigated to "http://www.tapqa.com/solutions/tapstrategy/" tap STRATEGY Page
+#    And I search for the Header "tap STATEGY"
+#    Then I click the Tap Logo to navigate back to the homepage
+#
+#		"""
+#        Helping our clients with understanding how their current business processes
+#        integrate with their IT processes, technology & organization structure.
+#		"""
 
-		"""
-        Helping our clients with understanding how their current business processes
-        integrate with their IT processes, technology & organization structure.
-		"""
-
+  @smoke-test
   Scenario: tap AUTOMATION page
-    Given I am on the "http://tapqa.com"
-    And I click on the Continuous Integration, Performance & Automation Link
-    Then I navigate to tap AUTOMATION Page
-    And I search for the Header tap AUTOMATION
-    Then I click on Tap Logo to navigate back to the homepage
+    Given I am on "http://tapqa.com"
+    And I click on the "Continuous Integration, Performance & Automation"
+#    Then I navigate to tap AUTOMATION Page
+#    And I search for the Header tap AUTOMATION
+#    Then I click on Tap Logo to navigate back to the homepage
+#
+#      """
+#      We use technology to provide meaningful
+#      metrics & transparency into your software development.
+#      """
 
-      """
-      We use technology to provide meaningful
-      metrics & transparency into your software development.
-      """
-
-
+    @smoke-test
     Scenario: tap CONSULTING page
-      Given I am on the "http://tapqa.com"
-      And I click on the Continuous Integration, Performance & Automation Link
-      Then I navigate to tap CONSULTING Page
-      And I search for the Header tap CONSULTING
-      Then I click on Tap Logo to navigate back to the homepage
+      Given I am on "http://tapqa.com"
+      And I click on the "Continuous Integration, Performance & Automation"
+#      Then I navigate to tap CONSULTING Page
+#      And I search for the Header tap CONSULTING
+#      Then I click on Tap Logo to navigate back to the homepage
+#
+#      """
+#      Our tap|CONSULTING services are perfect for when you are facing a growing
+#      number of projects, rapid company growth, or adoption of new methodologies.
+#      """
 
-      """
-      Our tap|CONSULTING services are perfect for when you are facing a growing
-      number of projects, rapid company growth, or adoption of new methodologies.
-      """
-
+     @smoke-test
      Scenario: tap LAKESHORE
-       Given I am on the "http://tapqa.com"
-       And I click on the Continuous Integration, Performance & Automation Link
-       Then I navigate to tap LAKESHORE Page
-       And I search for the Header tap LAKESHORE
-       Then I click on Tap Logo to navigate back to the homepage
-
-       """
-       Your nearshore solution, even nearer than you thought.
-       Coming to you from the land of 10,000 lakes,
-       we have the drive and the know-how to get your job done right the first time.
-       """
+       Given I am on "http://tapqa.com"
+       And I click on the "Continuous Integration, Performance & Automation"
+#       Then I navigate to tap LAKESHORE Page
+#       And I search for the Header tap LAKESHORE
+#       Then I click on Tap Logo to navigate back to the homepage
+#
+#       """
+#       Your nearshore solution, even nearer than you thought.
+#       Coming to you from the land of 10,000 lakes,
+#       we have the drive and the know-how to get your job done right the first time.
+#       """
 
        Scenario: Facebook Footer
          Given I am on the "http://tapqa.com"

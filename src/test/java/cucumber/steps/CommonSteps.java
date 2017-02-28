@@ -23,9 +23,11 @@ public class CommonSteps {
     }
 
 
-    @Then("^I am presented with the \"([^\"]*)\" homepage$")
-    public void i_am_presented_with_the_homepage(String expUrl) throws Throwable {
+    @Then("^I see the header \"([^\"]*)\" homepage$")
+    public void i_see_the_header(String expUrl) throws Throwable {
         page.checkUrl(expUrl);
     }
+
+
 
 }
